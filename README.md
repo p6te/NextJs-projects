@@ -1,0 +1,1 @@
+## Series of NextJs projects
