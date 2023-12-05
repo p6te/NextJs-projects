@@ -16,12 +16,6 @@ export default async function Home() {
         <Button type="submit">Sign Out</Button>
       </form>
 
-      {session?.user ? (
-        <div>{JSON.stringify(session.user)}</div>
-      ) : (
-        <div>Signed Out</div>
-      )}
-
       <Profile />
     </div>
   );
