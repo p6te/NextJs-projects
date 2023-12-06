@@ -3,12 +3,13 @@
 import { useFormState } from "react-dom";
 import {
   Input,
-  Button,
   Textarea,
   Popover,
   PopoverTrigger,
   PopoverContent,
+  Button,
 } from "@nextui-org/react";
+import FormButton from "../common/form-button";
 import * as actions from "@/actions";
 
 export default function TopicCreateForm() {
@@ -49,7 +50,7 @@ export default function TopicCreateForm() {
               </div>
             ) : null}
 
-            <Button type="submit">Submit</Button>
+            <FormButton>Submit</FormButton>
           </div>
         </form>
       </PopoverContent>
